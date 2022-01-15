@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     display: flex;
@@ -36,8 +37,6 @@ li a{
 li i{
     color: white;
 }
-/* navbar end */
-
 section{
     width: 100%;
 }
@@ -49,12 +48,11 @@ section{
     width: 50%;
 }
 .box-1{
-    width: 60%;
+    width: 50%;
 }
 .box-2{
     width: 40%;
 }
-
 .container{
     width: 90%;
     display: flex;
@@ -86,4 +84,108 @@ section{
 .box-2 img{
     width: 80%;
     margin-top: 100px;
+}
+.logos{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 2px solid rgb(134, 134, 134);
+    padding: 20px;
+}
+#showcase{
+    justify-content: center;
+}
+#heading{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+    margin: 0 auto;
+    grid-gap: 50px;
+}
+.product{
+    box-shadow: 0px 0px 10px 1px rgb(192, 188, 188);
+    border-radius: 10px;
+    padding: 20px;
+}
+.product img{
+    width: 300px;
+    height: 256px;
+}
+.product h1{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.product h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.product span{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons i{
+    margin-right: 5px;
+}
+.rating{
+    color: orange;
+}
+.product p{
+    font-size: 14px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.container-button{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+#link{
+    text-align: right;
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #E02C6D;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0A0826;
+    color: white;
+}
+footer h1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 100px; 
+}
+footer p{
+    text-align: center;
+    margin-top: 8px;  
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+.footer-icons i{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
